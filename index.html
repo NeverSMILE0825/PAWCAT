@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#0b0b0b" />
+  <meta name="description" content="PAWCAT — a black-and-white Ethereum meme world. The cat is in the paw. 12 original manga-style worlds, one little legend." />
+  <meta property="og:title" content="PAWCAT | Paws at You" />
+  <meta property="og:description" content="Paws at you. Explore the monochrome PAWCAT universe on Ethereum." />
+  <meta property="og:image" content="assets/hero_banner.webp" />
+  <link rel="icon" href="assets/PAWCAT_02_Logo.png" type="image/png" />
+  <title>PAWCAT / $PAWCAT — Paws at You</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&family=DM+Sans:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <div class="reading-progress" id="readingProgress" aria-hidden="true"></div>
+  <div class="texture" aria-hidden="true"></div>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="PAWCAT home"><span class="brand-image"><img src="assets/PAWCAT_02_Logo.png" alt="" /></span><span class="brand-word">PAWCAT<span class="brand-dot">.</span></span></a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#about">The Cat</a><a href="#memes">Meme Worlds</a><a href="#story">Our Story</a><a href="#tokenomics">Tokenomics</a><a href="#how-to-buy">How to Buy</a>
+    </nav>
+    <div class="header-right">
+      <a class="social-link" href="#community" aria-label="X community information" title="X updates"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.9 2H22l-6.8 7.8L23.2 22h-6.3L12 14.6 5.5 22H2.3l7.3-8.5L1.9 2h6.4l4.4 6.7L18.9 2ZM17.8 20h1.7L7.4 3.9H5.6L17.8 20Z"/></svg></a>
+      <a class="social-link" href="#community" aria-label="Telegram community information" title="Telegram updates"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.5 4.4 18.2 20c-.2 1-.8 1.3-1.6.8l-5-3.7-2.4 2.3c-.3.3-.5.5-1 .5l.4-5.1 9.4-8.5c.4-.4-.1-.6-.6-.3L5.8 13.3l-5-1.6c-1-.3-1-1 .2-1.4L20.3 3c.9-.3 1.6.2 1.2 1.4Z"/></svg></a>
+      <button class="mobile-menu-toggle" id="menuBtn" aria-controls="mobileNav" aria-expanded="false" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+  <nav id="mobileNav" class="mobile-nav" hidden aria-label="Mobile navigation"><a href="#about">The Cat</a><a href="#memes">Meme Worlds</a><a href="#story">Our Story</a><a href="#tokenomics">Tokenomics</a><a href="#how-to-buy">How to Buy</a><a href="#community">Community</a></nav>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="heroTitle">
+      <div class="hero-topline"><span class="pulse-mark"></span> A NEW PAWPRINT ON ETHEREUM <span class="hero-index">001 / THE BEGINNING</span></div>
+      <div class="hero-row">
+        <div class="hero-copy">
+          <p class="eyebrow paper-type">BLACK CAT. WHITE PAW. ONE BIG WORLD.</p>
+          <h1 id="heroTitle"><span>PAW</span><span>CAT<span class="title-star">✳</span></span></h1>
+          <p class="hero-tagline">Paws at you<span class="period">.</span></p>
+          <p class="hero-desc">One little black cat. One unmistakable white paw. An entire universe of hand-inked memes—now on Ethereum.</p>
+          <div class="hero-actions"><a class="btn btn-paper" href="#memes">EXPLORE THE MEMES <span aria-hidden="true">↗</span></a><a class="btn btn-ghost" href="#about">MEET PAWCAT <span aria-hidden="true">↓</span></a></div>
+          <div class="hero-micro"><span>ETH MAINNET</span><i></i><span>0% TAX</span><i></i><span>1B SUPPLY</span></div>
+        </div>
+        <div class="hero-figure"><div class="hero-figure-halo"></div><img src="assets/PAWCAT_03_Hero_Revised.svg" alt="PAWCAT's iconic black cat inside a white paw print" width="1000" height="1000" /><span class="figure-caption">FIG. 01 — THE PAW THAT STARTED IT ALL</span><span class="hero-speech">MEOW!</span></div>
+      </div>
+      <div class="hero-bottom"><span>SCROLL TO ENTER THE PAWVERSE</span><span class="scroll-arrow" aria-hidden="true">↓</span><span>EST. 2026 / ETHEREUM</span></div>
+    </section>
+
+    <div class="running-banner" aria-hidden="true"><div class="runner"><span>PAWS AT YOU ✳ </span><span>THE CAT IS IN THE PAW ✳ </span><span>PAWS AT YOU ✳ </span><span>THE CAT IS IN THE PAW ✳ </span><span>PAWS AT YOU ✳ </span><span>THE CAT IS IN THE PAW ✳ </span></div></div>
+
+    <section class="intro section-pad" id="about" aria-labelledby="introTitle">
+      <div class="section-kicker"><span class="rule"></span> 01 / INTRODUCING THE CAT</div>
+      <div class="intro-layout">
+        <div class="intro-image reveal"><img src="assets/hero_banner.webp" loading="lazy" width="2172" height="724" alt="Hand-inked manga landscape with PAWCAT's black cat and glowing white pawprint"/><span class="image-stamp">BORN TO BE A MEME</span></div>
+        <div class="intro-copy reveal"><span class="little-star">✳</span><h2 id="introTitle">Small cat.<br/><em>Big paw.</em><br/>Infinite stories.</h2><p>PAWCAT is a tiny character with a giant calling card: a black cat nestled inside a white paw print. It can be a mountain, a moon, a village, a world—but the cat is always in the paw.</p><p>Every artwork is a different scene, united by the same black-and-white manga identity. Find the one that speaks to you and pass it on.</p><a class="text-link" href="#story">READ THE STORY <span aria-hidden="true">↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="memes section-pad" id="memes" aria-labelledby="memesTitle">
+      <div class="section-head gallery-head"><div><div class="section-kicker"><span class="rule"></span> 02 / INTERNET CULTURE</div><h2 id="memesTitle">Paws at you<span class="period">.</span></h2></div><p>One symbol. Twelve completely different worlds.<br/>Pick a favorite and share the paw.</p></div>
+      <div class="gallery-toolbar" role="group" aria-label="Filter meme gallery"><div class="filters" id="filters"><button class="filter is-active" data-filter="All" aria-pressed="true">ALL WORLDS <sup>12</sup></button><button class="filter" data-filter="Adventure" aria-pressed="false">ADVENTURE</button><button class="filter" data-filter="Worlds" aria-pressed="false">WORLDS</button><button class="filter" data-filter="Cosmos" aria-pressed="false">COSMOS</button><button class="filter" data-filter="Community" aria-pressed="false">COMMUNITY</button><button class="filter" data-filter="Sky & Wonder" aria-pressed="false">SKY</button></div><button id="surpriseBtn" class="random-button" type="button">SURPRISE ME ↗</button></div>
+      <div class="gallery-grid" id="galleryGrid" aria-live="polite"></div>
+      <p class="gallery-note">ALL ARTWORK IS PRESENTED IN BLACK AND WHITE. TAP ANY MEME TO SEE THE FULL COMPOSITION.</p>
+    </section>
+
+    <section class="story section-pad" id="story" aria-labelledby="storyTitle"><div class="section-head"><div><div class="section-kicker"><span class="rule"></span> 03 / THE STORY</div><h2 id="storyTitle">Every paw<br/><em>has a story.</em></h2></div><p>No complicated lore. Just a little cat finding a place to belong—and bringing friends along the way.</p></div>
+      <article class="story-card reveal"><div class="story-art"><img loading="lazy" src="assets/story_one.webp" width="1700" height="1700" alt="Black cat protected inside a white paw-shaped hollow in the rain" /></div><div class="story-text"><span class="story-num">CHAPTER ONE / 01</span><h3>The First Paw</h3><p>In a big world, a tiny black cat found a little shelter. Not a castle. Not a crown. Just a soft white paw that felt like home.</p><span class="story-quote">“Even the smallest cat deserves a place.”</span></div></article>
+      <article class="story-card reverse reveal"><div class="story-art"><img loading="lazy" src="assets/story_two.webp" width="2000" height="900" alt="Paw-shaped tree over a village with black cat, rabbit and snail friends" /></div><div class="story-text"><span class="story-num">CHAPTER TWO / 02</span><h3>A Paw for Everyone</h3><p>Word spread. A rabbit stopped by. Then a snail. Then a whole village. Somehow, the little paw always had room for one more friend.</p><span class="story-quote">“The best kind of paw is one you share.”</span></div></article>
+    </section>
+
+    <section class="tokenomics section-pad" id="tokenomics" aria-labelledby="tokTitle"><div class="section-kicker"><span class="rule"></span> 04 / TOKEN DETAILS</div><div class="section-head token-head"><h2 id="tokTitle">Simple by<br/><em>design.</em></h2><p>No complicated math. Just the core details, kept clear.</p></div>
+      <div class="token-grid"><div class="token-box reveal"><span class="token-label">01 / CHAIN</span><strong>ETH</strong><small>Ethereum mainnet</small></div><div class="token-box reveal"><span class="token-label">02 / TOTAL SUPPLY</span><strong>1B</strong><small>1,000,000,000 PAWCAT</small></div><div class="token-box reveal"><span class="token-label">03 / TAX</span><strong>0%</strong><small>Buy / sell tax</small></div><div class="token-box reveal"><span class="token-label">04 / LIQUIDITY</span><strong>V3</strong><small>Uniswap V3 — LP lock planned</small></div></div>
+      <div class="ca-panel"><div><span class="ca-label">OFFICIAL ETHEREUM CONTRACT ADDRESS</span><div class="ca-value" id="contractText">Coming Soon..</div><p>Contract and liquidity-lock details will be published when available. Verify on-chain before trading.</p></div><button class="copy-button" id="copyBtn" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></svg><span>COPY</span></button></div>
+    </section>
+
+    <section class="buy section-pad" id="how-to-buy" aria-labelledby="buyTitle"><div class="section-kicker"><span class="rule"></span> 05 / BEGINNER'S GUIDE</div><div class="section-head"><h2 id="buyTitle">How to get<br/><em>your paws in.</em></h2><p>Four simple steps. PAWCAT is prelaunch, so the contract address is not yet available.</p></div><div class="steps"><div class="step reveal"><span class="step-number">01</span><h3>Get a wallet</h3><p>Use a self-custody Ethereum wallet you trust.</p></div><div class="step reveal"><span class="step-number">02</span><h3>Add ETH</h3><p>Keep enough ETH for your intended purchase and gas.</p></div><div class="step reveal"><span class="step-number">03</span><h3>Verify the contract</h3><p>Only use the published Ethereum address once PAWCAT is live.</p></div><div class="step reveal"><span class="step-number">04</span><h3>Swap on Uniswap</h3><p>Check price impact, token details, and pool liquidity before swapping.</p></div></div><a class="btn btn-paper swap-link" href="https://app.uniswap.org/swap?chain=mainnet" target="_blank" rel="noopener noreferrer">OPEN UNISWAP ↗</a></section>
+
+    <section class="community section-pad" id="community" aria-labelledby="communityTitle"><div class="community-copy"><div class="section-kicker"><span class="rule"></span> 06 / FIND YOUR PEOPLE</div><h2 id="communityTitle">One paw.<br/><em>Many friends.</em></h2><p>The pawverse is made to be shared. Community X and Telegram links will appear here when announced.</p><div class="community-links"><span class="community-pill"><b>𝕏</b><span>X — COMING SOON</span></span><span class="community-pill"><b>➤</b><span>TELEGRAM — COMING SOON</span></span></div></div><div class="community-art"><img loading="lazy" src="assets/footer_art.webp" alt="PAWCAT and friends gathered together beneath a giant paw in a detailed manga illustration" /></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="footer-top"><a href="#top" class="footer-brand">PAWCAT<span>.</span></a><a href="#top" class="backtop">BACK TO TOP ↑</a></div><div class="footer-bottom"><span>© 2026 PAWCAT / $PAWCAT</span><span>MADE OF PAWS, INK, AND IMAGINATION.</span><span>ETHEREUM MAINNET</span></div></footer>
+  <dialog class="lightbox" id="lightbox" aria-labelledby="lightTitle"><button class="modal-close" id="closeModal" aria-label="Close image">×</button><div class="lightbox-inner"><div class="modal-image-wrap"><img id="lightImage" alt="" /></div><div class="modal-meta"><div><span id="lightCount" class="modal-count"></span><h3 id="lightTitle"></h3><p id="lightCat"></p></div><div class="modal-controls"><a id="downloadImage" class="modal-download" download>DOWNLOAD ↓</a><button id="prevImage" aria-label="Previous image">←</button><button id="nextImage" aria-label="Next image">→</button></div></div></div></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

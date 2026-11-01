@@ -1,0 +1,11 @@
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+_preview/
+.vscode/
+.idea/
+*.tmp
+*.temp
+.env
+.env.*

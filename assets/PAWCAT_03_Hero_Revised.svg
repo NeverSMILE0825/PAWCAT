@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2048" height="2048" viewBox="-80 -80 1160 1160">
+<defs>
+ <pattern id="hatch" width="13" height="13" patternUnits="userSpaceOnUse" patternTransform="rotate(-18)"><path d="M0 0V13" stroke="#000" stroke-opacity=".12" stroke-width="1.4"/></pattern>
+ <filter id="ink" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation=".35"/></filter>
+</defs>
+<g fill="#fff" stroke="#fff" stroke-width="14" stroke-linejoin="round">
+<!-- four distinct rounded toe pads -->
+<ellipse cx="254" cy="321" rx="88" ry="127" transform="rotate(-14 254 321)"/>
+<ellipse cx="432" cy="214" rx="100" ry="137" transform="rotate(-6 432 214)"/>
+<ellipse cx="635" cy="213" rx="100" ry="137" transform="rotate(7 635 213)"/>
+<ellipse cx="811" cy="322" rx="88" ry="127" transform="rotate(14 811 322)"/>
+<!-- Main white pad, asymmetrical organic shape -->
+<path d="M520 371 C432 371 412 420 386 501 C368 565 323 567 285 595 C227 639 206 708 235 778 C271 859 373 876 451 844 C490 828 521 816 552 826 C608 847 657 874 723 855 C799 835 840 774 814 700 C796 652 756 618 714 587 C672 555 673 490 641 434 C620 394 585 371 520 371Z"/>
+</g>
+<!-- subtle manga edge hatching only on white forms -->
+<path d="M520 389 C444 389 422 437 405 496 C381 568 350 586 298 614 C252 647 230 702 255 764 C285 829 372 846 453 816 C505 795 539 800 578 817 C655 853 740 837 788 762 C827 692 753 643 696 601 C659 570 654 500 619 445 C597 410 566 389 520 389Z" fill="url(#hatch)" opacity=".42"/>
+<!-- central black cat: pointed ears, wide eyes, compact torso and large curl-tail -->
+<g fill="#080808">
+ <path d="M454 541 L470 476 L511 524 C527 520 551 520 563 525 L605 477 L620 541 C646 562 654 607 633 642 C620 664 604 674 584 682 C587 723 611 757 626 792 C636 819 624 841 592 843 L493 843 C453 841 441 823 450 790 C463 751 472 714 468 679 C432 662 420 634 426 599 C427 571 439 550 454 541Z"/>
+ <path d="M596 705 C688 639 760 696 751 761 C747 786 730 800 710 801 C680 803 674 769 697 755 C714 745 726 730 715 714 C704 692 673 705 646 738 C629 757 631 779 626 792 L593 791 C592 762 581 732 596 705Z"/>
+</g>
+<!-- expressive face -->
+<ellipse cx="488" cy="601" rx="23" ry="31" fill="white"/><ellipse cx="565" cy="601" rx="23" ry="31" fill="white"/>
+<ellipse cx="491" cy="598" rx="10" ry="20" fill="#080808"/><ellipse cx="568" cy="598" rx="10" ry="20" fill="#080808"/>
+<path d="M517 640 L534 640 L525 652Z" fill="white"/><path d="M525 651 Q512 663 503 655 M525 651 Q538 663 547 655" fill="none" stroke="white" stroke-width="5" stroke-linecap="round"/>
+<g stroke="#080808" stroke-width="5" fill="none" stroke-linecap="round"><path d="M437 633 L393 622 M440 645 L394 645 M443 656 L400 671 M619 633 L665 619 M618 646 L661 645 M614 659 L656 672"/></g>
+<!-- delicate ink sparkle marks on the transparent outer region -->
+<g stroke="white" stroke-width="7" stroke-linecap="round"><path d="M129 550 L129 606 M101 578 L157 578 M860 523 L860 569 M838 547 L883 547"/></g>
+<g fill="white"><circle cx="170" cy="655" r="6"/><circle cx="830" cy="643" r="5"/></g>
+</svg>

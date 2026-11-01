@@ -1,0 +1,18 @@
+---
+description: After codebase updates, push to GitHub and republish GitHub Pages
+alwaysApply: true
+---
+
+# Deploy PAWCAT after updates
+
+Remote: `https://github.com/NeverSMILE0825/PAWCAT.git`  
+Live site: `https://neversmile0825.github.io/PAWCAT/`
+
+Whenever you finish meaningful website changes in this project:
+
+1. Commit the relevant files (ask only if the user previously said not to commit).
+2. `git push origin main` (or the current tracking branch).
+3. Confirm the GitHub Pages deploy workflow succeeds (`gh run list` / `gh run watch`), or that branch Pages is up to date.
+4. Tell the user the live URL so they can verify.
+
+Do not force-push to `main` unless the user explicitly asks.
