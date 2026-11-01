@@ -8,11 +8,14 @@ alwaysApply: true
 Remote: `https://github.com/NeverSMILE0825/PAWCAT.git`  
 Live site: `https://neversmile0825.github.io/PAWCAT/`
 
+GitHub Pages is served from the `main` branch root. Pushing to `main` republishes automatically (no Actions workflow required).
+
 Whenever you finish meaningful website changes in this project:
 
-1. Commit the relevant files (ask only if the user previously said not to commit).
-2. `git push origin main` (or the current tracking branch).
-3. Confirm the GitHub Pages deploy workflow succeeds (`gh run list` / `gh run watch`), or that branch Pages is up to date.
+1. Commit the relevant files (user has requested ongoing deploy; commit + push after site updates unless they say not to).
+2. `git push origin main`.
+3. Briefly confirm Pages is updating / site is reachable.
 4. Tell the user the live URL so they can verify.
 
 Do not force-push to `main` unless the user explicitly asks.
+Use `"$env:LOCALAPPDATA\Programs\GitHubCLI\gh.exe"` for `gh` on this machine (npm `gh` is the wrong package).

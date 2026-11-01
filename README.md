@@ -12,11 +12,18 @@ python -m http.server 8000
 
 Then open `http://localhost:8000/`.
 
+## Live site
+
+**GitHub Pages:** https://neversmile0825.github.io/PAWCAT/
+
+Repository: https://github.com/NeverSMILE0825/PAWCAT
+
+Pushing to `main` republishes the site automatically (Pages source: `main` / root).
+
 ## Deploy
 
-- **Netlify:** drag the `PAWCAT_ETH_Website` directory to Netlify, or publish the repository root.
-- **GitHub Pages:** push all files to a repository and select `main / root` in Settings → Pages. Static relative URLs work for project-path deployments.
-- **Other static hosts:** upload the root files with the `assets` directory intact.
+- **GitHub Pages:** already configured from `main` / repository root.
+- **Netlify / other static hosts:** upload the root files with the `assets` directory intact.
 
 ## Site features
 
